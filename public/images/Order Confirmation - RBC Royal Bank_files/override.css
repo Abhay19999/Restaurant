@@ -1,0 +1,212 @@
+/*
+ * Override CSS *
+ */
+
+.wrapper-footer {
+    font-size: 0.801786rem;
+}
+
+/* /-------- RBC PBA Banner ---------/ */
+.edge-cover .text-container {
+    color: #333333;
+}
+
+/* /-------- RBC FOOTER ---------/ */
+#rbc-footer a {
+    color: #07308d;
+}
+#rbc-footer .wrap {
+    padding-top: 1.0022325rem;
+    background: #FFF;
+    background: -moz-linear-gradient(top, #ffffff 90%, #eeecde 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, #FFF), color-stop(100%, #eeecde));
+    background: -webkit-linear-gradient(top, #FFF 90%, #eeecde 100%);
+    background: -o-linear-gradient(top, #ffffff 90%, #eeecde 100%);
+    background: -ms-linear-gradient(top, #ffffff 90%, #eeecde 100%);
+    background: linear-gradient(to bottom, #FFF 90%, #eeecde 100%);
+}
+#rbc-footer .inner-foot {
+    padding: 0 1.0022325rem;
+    max-width: 67.483655rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#rbc-footer .tile-foot {
+    padding-top: 1.0022325rem;
+    padding-bottom: 0.668155rem;
+    border-top: 0.0668155rem solid #e7e2d0;
+    box-sizing: border-box;
+}
+#rbc-footer .tile-foot:nth-child(1) {
+    border-top: 0;
+}
+#rbc-footer .tile-foot h3 {
+    font-size: 0.801786rem;
+    color: #0f0f0f;
+    font-weight: bold;
+    margin-top: 1.33631rem;
+    margin-bottom: 0.668155rem;
+    line-height: 1.1;
+}
+#rbc-footer .tile-foot ul {
+    padding-left: 1.0022325rem;
+    margin-top: 0.668155rem;
+    box-sizing: border-box;
+}
+#rbc-footer .tile-foot ul li {
+    padding-bottom: 0.3340775rem;
+    box-sizing: border-box;
+}
+#rbc-footer .tile-foot ul li a {
+    color: #07308d;
+    box-sizing: border-box;
+    line-height: 1.42857143;
+}
+#rbc-footer .tile-foot ul li img {
+    vertical-align: middle;
+}
+#rbc-footer .base-foot {
+    padding: 1.0022325rem 0;
+    background: white;
+}
+#rbc-footer .base-foot .inner {
+    padding: 0 1.0022325rem;
+    max-width: 67.483655rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#rbc-footer .base-foot .inner .base-link a {
+    text-decoration: underline;
+}
+#rbc-footer .base-foot .inner #tool-totop img {
+    margin-left: 0.50111625rem;
+}
+
+#rbc-footer .extended-disclaimer{
+    padding-top: 1.0022325rem;
+}
+#rbc-footer .extended-disclaimer a:link {
+    text-decoration: underline;
+}
+#rbc-footer .extended-disclaimer ol {
+    margin-left: 1.1358635rem;
+    padding-left: 0;
+}
+#rbc-footer .extended-disclaimer ol li {
+    list-style-type:decimal;
+    padding-bottom: 1.0022325rem;
+}
+/*/-------- RBC Responsive ---------/*/
+/* mablet / tablet */
+@media (min-width: 550px) {
+    #rbc-footer .wrap {
+        padding-top: 0;
+        background: #FFF;
+    }
+    #rbc-footer .inner-foot {
+        overflow: auto;
+    }
+    #rbc-footer .tile-foot {
+        float: left;
+        width: 50%;
+        border: 0;
+        padding-top: 1.6703875rem;
+        padding-bottom: 1.0022325rem;
+        padding-left: 1.6703875rem;
+    }
+    #rbc-footer .tile-foot:nth-child(even) {
+        border-left: 0.0668155rem solid #e7e2d0;
+    }
+    #rbc-footer .tile-foot:nth-child(3) {
+        border-top: 0.0668155rem solid #e7e2d0;
+    }
+    #rbc-footer .tile-foot:nth-child(4) {
+        border-top: 0.0668155rem solid #e7e2d0;
+    }
+    #rbc-footer .base-foot .inner {
+        overflow: auto;
+     }
+    #rbc-footer .base-foot .base-link {
+        float: left;
+    }
+    #rbc-footer .base-foot .base-link.right {
+        float: right;
+    }
+}
+/* desktop */
+@media (max-width: 768px) {
+    .edge-cover .banner-img.pos-left-img {
+        background-position: center;
+        background-size: contain;
+        height: 25.7239675rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 899px) {
+    .edge-cover .banner-img.pos-left-img {
+        background-position: 3% center;
+        background-size: 58%;
+    }
+    .edge-cover .wrap-contain.set-mw .pos-contain.set-right {
+        margin-right: -2%;
+        width: 40%;
+    }
+}
+/* desktop */
+@media (min-width: 900px) {
+    .edge-cover .banner-img.pos-left-img {
+        /*left: -2%;*/
+        margin-bottom: 100px;
+    }
+    .edge-cover .wrap-contain.set-mw .pos-contain.set-right {
+        margin-right: -5%;
+        padding-right: 0.4677085rem;
+    }
+    .edge-cover .wrap-contain.set-mw .pos-contain.set-right.cta-type-content{
+        margin-right: 0;
+    }
+    #rbc-footer .tile-foot {
+        width: 25%;
+        border: 0;
+        padding: 1.6703875rem 0.3340775rem 1.0022325rem 1.0022325rem;
+        border-left: 0.0668155rem solid #e7e2d0;
+        border-top: 0;
+    }
+    #rbc-footer .tile-foot:nth-child(1) {
+        border-left: 0;
+        padding-left: 0;
+    }
+    #rbc-footer .tile-foot:nth-child(3) {
+        border-top: 0;
+    }
+    #rbc-footer .tile-foot:nth-child(4) {
+        border-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1027px) {
+    .wrapper.main-store:not(.PBA):not(.acquisition):not(.AW1) .top-hat .contain .logo-container img.var-logo {
+        width: 18.2406315rem;
+        max-width: 18.2406315rem;
+    }
+    .wrapper.main-store:not(.PBA):not(.acquisition):not(.AW1) .top-hat .contain .logo-container {
+        padding: 2.2049115rem 0 2.138096rem 0;
+        width: 18.2406315rem;
+        max-width: 18.2406315rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .wrapper.main-store:not(.PBA):not(.acquisition):not(.AW1) .top-hat .contain .logo-container img.var-logo {
+        width: 11.225004rem;
+        max-width: 11.225004rem;
+        height: 1.2694945rem;
+    }
+    .wrapper.main-store:not(.PBA):not(.acquisition):not(.AW1) .top-hat .contain .logo-container {
+        width: 11.225004rem;
+        max-width: 11.225004rem;
+        padding: 2.271727rem 0 2.8730665rem;
+    }
+    .new-cont .new-nav-mobile .mobile-header>ul li {
+        margin: 0 auto;
+    }
+}
